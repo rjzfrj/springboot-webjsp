@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet-path: /
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/  ##  配置视图解析器前缀
+      suffix: .jsp   ##  配置视图解析器后缀
+#静态资源配置确实不知道是干什么的，如果配置了就不能访问了那还有什么用
+#  resources:
+#   static-locations: classpath:/static/,classpath:/WEB-INF/static/,classpath:/image/
